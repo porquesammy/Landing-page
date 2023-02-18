@@ -1,0 +1,302 @@
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+/* page css */
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+nav {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    padding: 1rem 0rem;
+    display: flex;
+    flex: 0 1 auto;
+    color: white;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+}
+
+/* flex container */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 8rem 5rem;
+    height: 150px;
+    /* border: 10px blue solid; */
+}
+
+div.container-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    /* border: 10px blue solid; */
+}
+
+div.container-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 150px;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+main p {
+    color: #d9d9d9;
+}
+
+main button {
+    align-self: flex-start;
+    border-radius: .3rem;
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 20px;
+    border: none;
+}
+
+h2.logo {
+    font-weight: 700;
+}
+
+nav li {
+    align-items: center;
+    display: inline-block;
+}
+
+nav a {
+    padding: .4rem;
+    color: #d9d9d9;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+section.random {
+    background-color: #ffffff;
+}
+
+section.random h2 {
+    margin: 2rem;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+div.container {
+    display: flex;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    gap: 2.5rem;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+}
+
+div.card p {
+    margin-top: .5rem;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: rgb(71, 71, 71);
+}
+
+div.card img {
+    border: #3882f6 3px solid;
+    border-radius: .8rem;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+section.quote {
+    background-color: #e5e7eb;
+    padding: 5rem;
+    color: rgb(71, 71, 71);
+}
+
+section.quote {
+    flex: 0 1 auto;
+}
+
+section.quote p {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+section.quote cite {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-align: end;
+}
+
+
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.flex-contain {
+    margin: 3rem 1rem;
+    padding: 2rem 4rem;
+    border-radius: .4rem;;
+    display: flex;
+    background-color: #3882f6;
+}
+
+section.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-contain button {
+    border-radius: .4rem;
+    background-color: #3882f6;
+    color: white;
+    border: white solid 2px;
+    padding: 0rem 1.4rem;
+    align-items: center;
+}
+
+.container-call2 h3 {
+font-size: 18px;
+font-weight: bold;
+color: white;
+}
+
+.container-call2 p {
+    font-size: 14px;
+    color: #d9d9d9;
+    margin-right: 2rem;
+}
+
+footer {
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

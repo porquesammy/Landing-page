@@ -110,11 +110,12 @@ q {
 }
 
 /* page css */
+
 body {
     height: 100vh;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background-color: #1F2937;
 }
 
@@ -126,16 +127,14 @@ nav {
     flex: 0 1 auto;
     color: white;
     justify-content: space-between;
-    /* border: 1px red solid; */
 }
 
 /* flex container */
 main {
     display: flex;
-    justify-content: space-between;
     margin: 4rem 8rem 5rem;
     height: 150px;
-    /* border: 10px blue solid; */
+    /* border: 10px goldenrod solid; */
 }
 
 div.container-left {
@@ -143,7 +142,8 @@ div.container-left {
     flex-direction: column;
     flex: 1 1 auto;
     justify-content: space-between;
-    /* border: 10px blue solid; */
+    /* border: 3px purple solid; */
+    align-items: flex-start;
 }
 
 div.container-right {
@@ -165,7 +165,6 @@ main p {
 }
 
 main button {
-    align-self: flex-start;
     border-radius: .3rem;
     background-color: #3882f6;
     color: white;
@@ -195,6 +194,7 @@ section.random {
 
 section.random h2 {
     margin: 2rem;
+    padding-top: 2rem;
     font-size: 28px;
     text-align: center;
     font-weight: bolder;
@@ -205,11 +205,13 @@ div.container {
     margin-right: 8rem;
     margin-left: 8rem;
     gap: 2.5rem;
+    /* border: 5px solid blueviolet; */
 }
 
 div.card {
     display: flex;
     flex-direction: column;
+    
 }
 
 div.card p {
@@ -225,12 +227,14 @@ div.card img {
     border-radius: .8rem;
     flex: 1 1 auto;
     width: 100%;
+
 }
 
 section.quote {
     background-color: #e5e7eb;
     padding: 5rem;
     color: rgb(71, 71, 71);
+    /* border: 5px solid green; */
 }
 
 section.quote {
@@ -265,11 +269,6 @@ section.quote cite {
     border-radius: .4rem;;
     display: flex;
     background-color: #3882f6;
-}
-
-section.call-to-action {
-    display: flex;
-    flex-direction: column;
 }
 
 .flex-contain button {
